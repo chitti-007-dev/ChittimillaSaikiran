@@ -131,84 +131,208 @@
                 </div>
             </div>
 			
-					<div id="SmartHome" class="container gallery_area" >
-                        <div class="row">   
-							<div class="col-xl-6 col-md-6"> 
-							
-							<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">Windows GUI Application</div>
-                                    <img src="img/gallery/1.png" height="300px" width="450px" alt="">
-							</div>
-							<div class="col-xl-6 col-md-6" > 
-							<div class="projectclass">
-									  <div class="projectHeadings">Overview</div>
-                                     <div style="padding-bottom:20px">A project on “Smart Home Security”, in which a UI for a windows 10 application is being developed.
-										The main goal of the project is to make a sniffing device capture the secret key of the smart home appliances and itself act as a real device to send data to a base station and there by getting the control over the appliance
-									 </div>
-									 			  			  
-						<a href="https://gitlab.com/chitti-007-dev/smarthome" class="projectHeadings single_links d-flex justify-content-between align-items-center" style="width:fit-content" target="_blank">
-								<b>Project Link</b>
-						</a>
-							</div>
-							</div>
-						</div>
+					<div id="SmartHome" class="container gallery_area">
+	<div class="row">
+		<div class="col-xl-6 col-md-6">
+			<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">Windows GUI Application</div>
+			<img src="img/gallery/CUL.jpg" height="80%" width="100%" alt="">
+			</div>
+			<div class="col-xl-6 col-md-6">
+				<div class="projectclass">
+					<div class="projectHeadings">
+						<b>Overview</b>
 					</div>
-					
-					<div id="MediaPlayer" class="container gallery_area">
-                        <div class="row">   
-							<div class="col-xl-6 col-md-6">
-							<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">C++ Application</div>
-                                    <img src="img/gallery/5.png" height="300px" width="350px"  alt="">
-							</div>
-							<div class="col-xl-6 col-md-6"> 
-                                   <div class="projectclass">
-									  <div class="projectHeadings">Overview</div>
-									  	<div style="padding-bottom:20px" > 
-A project using C++ to build a “Audio Player” with IO Warrior as an externally connected hardware to control the Stop/Play and to display the LED lighting based on the amplitude levels of the music played.
-									  </div>
-									  			  
-						<a href="https://github.com/chitti-007-dev/MediaPlayer" class="projectHeadings single_links d-flex justify-content-between align-items-center" style="width:fit-content" target="_blank">
-								<b>Project Link</b>
-						</a>
-                            </div>       
-                            </div>    
-						</div>
+					<div style="padding-bottom:20px">
+						The project aims to create a Windows 10 Application, which is used to capture the secret key of the smart home devices with the help of a sniffing device, and that key is further used to control the smart home devices through the GUI application made by using the MFC in visual studio.
+						Thus, it demonstrates a replay attack and thereby gains control over the smart home devices.
 					</div>
+					<div style="padding-bottom:20px">
+						The code is written in C++ and gcrypt library is used for encryption and decryption purposes. The data from the application is sent to the CUL stick via a serial communication port and then it transmits data to the base station wirelessly. Wireshark is used to track the incoming and outgoing packets of a base station and smart home devices.
+					</div>
+					<div style="padding-bottom:20px">
+						<b>Hardware Used:</b>
+						<div>•	Sniffing device - CUL 868</div>
+						<div>•	Smart Home Devices (Smart-Switch/ Window-Contact)</div>
+						<div>•	Qivicon Base Station</div>
+					</div>
+					<div style="padding-bottom:20px">
+						<b>Software Used:</b>
+						<div>•	Microsoft Visual Studio</div>
+						<div>•	WireShark</div>
+						<div>•	 H-term</div>
+						<div>•	TortoiseGit</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 					
+<div id="MediaPlayer" class="container gallery_area">
+	<div class="row">
+		<div class="col-xl-6 col-md-6">
+			<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">C++ Console Application</div>
+			<img src="img/gallery/5.png" height="70%" width="100%" alt="">
+			</div>
+			<div class="col-xl-6 col-md-6">
+				<div class="projectclass">
+					<div class="projectHeadings">
+						<b>Overview</b>
+					</div>
+					<div style="padding-bottom:20px">
+						The project aims to built a media player application which plays the ringtones (WAV Files) using the C++ application and control it using the IOWarrior 40 hardware kit.
+						Users can control the start/stop/resume operation using the button on IOWarrior and the amplitude level of the music played is displayed on the 8 LEDs of the IoWarrior kit.
+						The filters are generated using the MATLAB and these filters can be selected by the user to apply to the muisc played,using the console of the application.
+					</div>
+					<div style="padding-bottom:10px">
+						<b style="padding-bottom:20px">The project consists of the following setup:</b>
+						<div>•	MySQL DB - For storing the WAV files of the ringtones, Filters that can be applied to the ringtone while playing or before starting the play.</div>
+						<div>•	Eclipse IDE</div>
+						<div>•	IOwarrior API</div>
+						<div>•	Port Audio Stream API</div>
+						<div>•	Separate DB classes for the filter database and the Sound Database</div>
+						<div>•	A separate User-Interface Class which handles all the requests from the user</div>
+						<div>•	MVC model-based application</div>
+						<div>•	Separate Exception Handling and also the file handling classes are created</div>
+					</div>
+					<a href="https://github.com/chitti-007-dev/MediaPlayer" class="boxed-btn3-line" target="_blank">
+					<b style="color:#db6464">Project Link</b>
+				</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
 					<div id="CompanyProject" class="container gallery_area">
-                        <div class="row">   
-							<div class="col-xl-6 col-md-6"> 
-							<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">Work Experience</div> 
-                                    <img src="img/gallery/3.png" height="300px" width="450px"  alt="">
+	<div class="row">
+		<div class="col-xl-6 col-md-6">
+			<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">Work Experience</div>
+			<img src="img/gallery/UHG_OPTUM.jpg" hieght="45%" width="100%" alt="">
+			<img src="img/gallery/3.jpg" height="35%" width="100%" alt="">
+			<img style="padding-top:20px" src="img/gallery/6.png" height="20%" width="100%" alt="">
+			<img style="padding-top:20px" src="img/gallery/7.jpeg" height="30%" width="100%" alt="">
+			
+			
+			</div>
+			<div class="col-xl-6 col-md-6">
+				<div class="projectclass">
+					<div class="projectHeadings">
+						<b>Overview</b>
+					</div>
+					<div style="padding-bottom:20px">Worked as a Software Engineer at Optum Global Solutions Pvt Ltd Hyderabad, India from July 2017 to August 2019.
+						Optum is the technology wing of the United Health Group(UHG).</div>
+					<div style="padding-bottom:20px">
+						<div>
+							<b style="padding-bottom:20px">UHC Motion (October 2017 - March 2018)</b>
+						</div>
+						<div>•	This is my first project in my career as a software engineer.
+							Major contribution in this project was to completely modify the HTML, CSS, JavaScript
+							of the production to make it error-free for different browsers, Mobile views, and
+							make the content in it accessible to the blind users who use the non-visual desktop aided applications like NVDA.
+						</div>
+						<div>•	The application was build based on the .Net Framework using visual studio.</div>
+					</div>
+					<div style="padding-bottom:20px">
+						<div style="padding-bottom:20px">
+							<b>M&amp;R Portals (April 2018 - August 2019)</b>
+						</div>
+						<div>•	The project deals with the consumer portals of the company, through which customer's actually buy the products offered.</div>
+						<div>•	In a scrum team of 8 members which includes Team Leader, Scrum Master, 5 Developers(Including me), Product Owner. We used to develop the new enhancement features and web pages as per the business requirements following the Agile scrum methodologies.</div>
+						<div>•	One of the major contributions from my end involves the Home Page Redesigning which is the present production UI layout.</div>
+						<a href="https://www.aarpmedicareplans.com/" target="_blank">
+							<b style="color:#db6464">HomePage</b>
+						</a>
+						<div style="padding-bottom:20px;padding-top:20px">•	This project is quite interesting and involves an overall 80 members of a big team which is divided into several sub-teams.</div>
+						<div>•	I gained a lot of experience in this project by learning the software development lifecycle practically from the initial stage of creating a feature as per the business requirement to the final product handover to the business.</div>
+						<div>•	Involved in the bug fixing and supported the production releases (which takes place every month).</div>
+						<div>•  Received STAR Award for the good performance</div>
+						<div>•	The UI for the below two pages is built according to the business requirements, which is my other major contribution.</div>
+						
+						<a href="https://www.aarpmedicareplans.com/health-plans/medicare-supplement-plans/medicare-information.html?vpp=true" style="padding-right:10px" target="_blank">
+							<b style="color:#db6464">Decision-Guide</b>
+							</a>
+						<a href="https://www.aarpmedicareplans.com/health-plans/medicare-supplement-plans/agent-appointment.html" style="padding-right:10px" target="_blank">
+							<b style="color:#db6464">Agent-Appointment</b>
+						</a>
+						<div style="padding-bottom:20px;padding-top:20px">
+							<b style="padding-bottom:20px">The following web languages are involved in it:</b>
+							<div>HTML</div>
+							<div>CSS</div>
+							<div>Angular JS</div>
+							<div>JavaScript</div>
+						</div>
+						<div style="padding-bottom:20px">
+							<b style="padding-bottom:20px">Other technologies involved are:</b>
+							<div>JAVA</div>
+							<div>MySQL</div>
+							<div>Adobe Experience Manager(AEM)-For Content Management</div>
+							<div>REST API</div>
+							<div>SOAP UI – For Webservices Testing</div>
+							<div>GitHub</div>
+							<div>Jenkins – For Auto triggering build configurations</div>
+						</div>
+						<div style="padding-bottom:20px">
+							<div>
+								<b style="padding-bottom:20px">The software tools used are:</b>
 							</div>
-							<div class="col-xl-6 col-md-6"> 
-                                   <div class="projectclass">
-									  <div class="projectHeadings">Overview</div>
-									  
-								   </div>
-							</div>
-                            </div>    
+							<div>Beyond Compare</div>
+							<div>Tortoise Git</div>
+							<div>Postman</div>
+							<div>Microsoft outlook</div>
+							<div>STS (spring tool suite)</div>
+							<div>Eclipse IDE</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 					
 					<div id="KiCAD" class="container gallery_area">
                         <div class="row">   
 							<div class="col-xl-6 col-md-6"> 
 							<div style="padding-bottom:20px;font-size:32px;color:#ff2913a6">KiCAD Project</div>
-                                    <img src="img/gallery/4.jpg" height="300px" width="450px"  alt="">
+									<img style="padding-bottom:20px" src="img/gallery/4.jpg" height="45%" width="100%"  alt="">
+									<img src="img/gallery/5.jpg" height="45%" width="100%"  alt="">
 							</div>
 							<div class="col-xl-6 col-md-6"> 
 							<div class="projectclass">
-									  <div class="projectHeadings">Overview</div>
-									  
-								   </div>
-							</div>
-                            </div>    
-                                     
+	<div class="projectHeadings">
+		<b>Overview</b>
+	</div>
+	<div style="padding-bottom:20px"> The project aims to create a system, which detects the moving object and indicates its presence.
+		The system mainly consists of designed PCB boards with all the essential hardware parts and a FreeSoc2 board which also consists of an inbuilt Arduino board in it.
+	</div>
+	<div style="padding-bottom:20px">
+		The code is written in C using the PSoC Creator for USB Serial Communication to Arduino. The output of the sensor after amplification is sent to the 4th order bandpass amplifier and then after transferred to Arduino for further processing into a digital signal and later the output is observed as an LED Indication.
+	</div>
+	<div style="padding-bottom:20px">
+		<b style="padding-bottom:20px">Hardware Used:</b>
+		<div>•	IPM165 RADAR Sensor (Works on Doppler Effect)</div>
+		<div>•	4th Order Bandpass Amplifier (Created using KiCAD as per requirement)</div>
+		<div>•	FreeSoc2 Board </div>
+	</div>
+	<div style="padding-bottom:20px">
+		<b style="padding-bottom:20px">Software Used:</b>
+		<div>•	PSoC Creator</div>
+		<div>•	KiCAD</div>
+		<div>•	 H-term</div>
+		<div>•	Matlab</div>	
+	</div>
+	<div style="padding-bottom:20px"><b>The overall block representation of the Project is as follows:</b></div>
+	<div><img src="img/gallery/kiCad.png" style="width:100%"></div>
+</div>
+</div>
+</div>
+
                             </div>    
 						</div>
 					</div>	
-					</div>
-        </div>
+
     <!-- Portfolio area end  -->
 	<!-- footer start -->
     <footer class="footer">
