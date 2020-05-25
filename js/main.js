@@ -81,20 +81,20 @@ autoplaySpeed: 800,
       0:{
           items:1,
           dots:false,
-          nav:false,
+          nav:true,
       },
       767:{
           items:1,
           dots:false,
-          nav:false,
+          nav:true,
       },
       992:{
           items:1,
-          nav:false
+          nav:true
       },
       1200:{
           items:1,
-          nav:false
+          nav:true
       },
       1500:{
           items:1
