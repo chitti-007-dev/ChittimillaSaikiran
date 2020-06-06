@@ -6315,3 +6315,15 @@ color:#ffffff;
 .gallery_area a:hover  {
 	background-color:#fff;
 }
+@media (max-width: 767px) {
+	.modal-content {
+	overflow:auto;
+	height :350px
+	}
+.secondaryButton {
+	margin-left :20%
+}
+.modal-title {
+	height :auto;
+}
+}
