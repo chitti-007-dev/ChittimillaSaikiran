@@ -1,16 +1,5 @@
 $(document).ready(function(){
 console.log("jquery is working");
-$('#View_CV').click(function(){
-	$('#CVPopup').addClass("active");
-	$('#CVOverlay').addClass('show');
-	$('body').css('overflow','hidden');
-});
-$('#closeCV').click(function(){
-
-	$('#CVPopup').removeClass("active");
-	$('#CVOverlay').removeClass('show');
-	$('body').css('overflow','auto');
-});
 
 
 $("#h-da").click(function(){
